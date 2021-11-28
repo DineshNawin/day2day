@@ -95,7 +95,7 @@ window.addEventListener('DOMContentLoaded', event => {
         margin: 100,
         dots: true,
         autoplay: true,
-        autoplayTimeout: 2000,
+        autoplayTimeout: 2500,
         items: 1,
         loop: true,
         responsive: {
