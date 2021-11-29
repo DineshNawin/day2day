@@ -34,23 +34,23 @@ window.addEventListener('DOMContentLoaded', event => {
     });
     let contents = {
         featuresNav: {
-            english: "Features",
-            tamil: "அம்சங்கள்"
+            english: "Products",
+            tamil: "பொருட்கள்"
         },
         downloadNav: {
             english: "Download",
             tamil: "பதிவிறக்கம்"
         },
-        feedbackNav: {
-            english: "Send Feedback",
-            tamil: "கருத்துகளை பதிவிடவும்"
-        },
+        // feedbackNav: {
+        //     english: "Send Feedback",
+        //     tamil: "கருத்துகளை பதிவிடவும்"
+        // },
         headerNav: {
-            english: "Send Feedback",
-            tamil: "கருத்துகளை பதிவிடவும்"
+            english: "Day2Day - Madurai",
+            tamil: "Day2Day"
         },
         descriptionNav: {
-            english: "Send Feedback",
+            english: "Get your daily needs!",
             tamil: "கருத்துகளை பதிவிடவும்"
         },
         vegNav: {
