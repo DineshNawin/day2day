@@ -46,12 +46,16 @@ window.addEventListener('DOMContentLoaded', event => {
         //     tamil: "கருத்துகளை பதிவிடவும்"
         // },
         headerNav: {
-            english: "Day2Day - Madurai",
-            tamil: "Day2Day"
+            english: "Day2Day Madurai",
+            tamil: "Day2Day மதுரை"
         },
         descriptionNav: {
+            english: "Exclusively in MADURAI",
+            tamil: "மதுரை முழுவதும்"
+        },
+        taglineNav: {
             english: "Get your daily needs!",
-            tamil: "கருத்துகளை பதிவிடவும்"
+            tamil: "உங்கள் அன்றாட தேவைகளைப் பெறுங்கள்!"
         },
         vegNav: {
             english: "Vegetables and Fruits",
@@ -100,6 +104,10 @@ window.addEventListener('DOMContentLoaded', event => {
         fishContentNav:{
             english:"sea to door",
             tamil:"கடலில் இருந்து இறக்குமதி செய்யப்பட்டது",
+        },
+        offerNav:{
+            english:"Offers",
+            tamil:"",
         },
     }
 
