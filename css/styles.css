@@ -101,15 +101,24 @@ hr:not([size]) {
   height: 1px;
 }
 
-h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: cursive; */
+  /* font-family: "Newsreader", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  font-weight: 600;
+  line-height: 1.2;
+}
+h1 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  /* font-family: 'Montserrat', sans-serif; */
   font-family: cursive;
   /* font-family: "Newsreader", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
   font-weight: 600;
   line-height: 1.2;
 }
-
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
@@ -7928,7 +7937,7 @@ textarea.form-control-lg {
 }
 
 .rounded-circle {
-  border-radius: 50% !important;
+  border-radius:10% !important;
 }
 
 .rounded-pill {
@@ -11313,7 +11322,8 @@ section {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #fff;
+  /* background: linear-gradient(45deg, #2F9C31, #99ff33) !important; */
+  background-color: #2F9C31;
 }
 #mainNav .navbar-brand {
   font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -11324,25 +11334,25 @@ section {
 #mainNav .navbar-toggler {
   font-size: 0.875rem;
   padding: 0.75rem 1rem;
-  color: #212529;
+  color: #fff;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: #2F9C31;
+  color: #fff;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #6c757d;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #2f9c31;
+  color: #fff;
 }
 #mainNav .navbar-nav .nav-item-language .nav-link {
-  color: #2F9C31;
+  color: #fff;
 }
 #mainNav .navbar-nav .nav-item-language .nav-link:hover {
   color: #6c757d;
 }
 #mainNav .navbar-nav .nav-item-language .nav-link.active {
-  color: #2f9c31;
+  color: #fff;
 }
 
 /*!
@@ -11651,7 +11661,7 @@ img.product-img {
   margin: 30px 0px;
 }
 
-#offers_container h2 {
+#offers_container h2{
   margin-bottom: 30px;
   margin-left: 10px;
 }

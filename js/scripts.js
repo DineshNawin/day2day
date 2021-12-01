@@ -74,7 +74,7 @@ window.addEventListener('DOMContentLoaded', event => {
             tamil:"அனைத்து வகையான மளிகை பொருட்கள் கிடைக்கும்"
         },
         chickenNav:{
-            english:"Chicken",
+            english:"Tender Chicken",
             tamil:"கோழி இறைச்சி"
         },
         chickenContentNav:{
