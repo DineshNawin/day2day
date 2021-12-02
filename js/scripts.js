@@ -113,6 +113,11 @@ window.addEventListener('DOMContentLoaded', event => {
             english:"Customer satisfaction is paramount to us and it is at the core of our operations. The success of Day2Day is dependent on the happiness and satisfaction of our customers.",
             tamil:"Customer satisfaction is paramount to us and it is at the core of our operations. The success of Day2Day is dependent on the happiness and satisfaction of our customers."
         },
+        appNav:{
+            english:"Get the app now",
+            tamil:"பயன்பாட்டை இங்கே பெறுங்கள்"
+            
+        }
     }
 
     let updateContent = languageId => {
