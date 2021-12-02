@@ -1,11 +1,3 @@
-/*!
-* Start Bootstrap - New Age v6.0.4 (https://startbootstrap.com/theme/new-age)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-new-age/blob/master/LICENSE)
-*/
-//
-// Scripts
-// 
 
 const productsStyle = ""; //"single row" to show all products in single row in mobile view
 
@@ -107,7 +99,19 @@ window.addEventListener('DOMContentLoaded', event => {
         },
         offerNav:{
             english:"Offers",
-            tamil:"",
+            tamil:"வழங்குகிறது",
+        },
+        quoteNav:{
+            english:"Order before 10pm and get your deliveries next day before 10am!",
+            tamil:"முதல் நாள் 10 மணிக்குள் ஆர்டர் செய்பவர்களுக்கு, மறுநாள் காலை 10 மணிக்குள் டெலிவரி செய்கிறோம்."
+        },
+        quote2Nav:{
+            english:"You will love it!",
+            tamil:"You will Love it!"
+        },
+        quote2desNav:{
+            english:"Customer satisfaction is paramount to us and it is at the core of our operations. The success of Day2Day is dependent on the happiness and satisfaction of our customers.",
+            tamil:"Customer satisfaction is paramount to us and it is at the core of our operations. The success of Day2Day is dependent on the happiness and satisfaction of our customers."
         },
     }
 
