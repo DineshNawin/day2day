@@ -11294,7 +11294,8 @@ html {
 }
 
 .bg-gradient-primary-to-secondary {
-  background: linear-gradient(45deg, #2F9C31, #99ff33) !important;
+  background-color: #2F9C31;
+  /* background: linear-gradient(45deg, #2F9C31, #99ff33) !important; */
 }
 
 .font-alt {
